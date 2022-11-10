@@ -10,4 +10,5 @@ cd  "$WORKSPACE"/"${CODEBASE_DIR}"
 logInfoMessage "Running below tf command"
 logInfoMessage "terraform $INSTRUCTION"
 
+terraform init
 terraform "$INSTRUCTION"
