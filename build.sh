@@ -6,6 +6,7 @@ logInfoMessage "I'll create/update RDS whose properties are available at [$WORKS
 sleep  "$SLEEP_DURATION"
 
 cd  "$WORKSPACE"/"${CODEBASE_DIR}"
+cp /opt/buildpiper/rds.tf .
 
 logInfoMessage "Running below tf command"
 logInfoMessage "terraform $INSTRUCTION"
