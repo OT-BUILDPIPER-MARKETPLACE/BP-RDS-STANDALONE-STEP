@@ -7,4 +7,7 @@ sleep  "$SLEEP_DURATION"
 
 cd  "$WORKSPACE"/"${CODEBASE_DIR}"
 
+logInfoMessage "Running below tf command"
+logInfoMessage "terraform $INSTRUCTION"
+
 terraform "$INSTRUCTION"
